@@ -1,0 +1,45 @@
+.container-5{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 10px;  
+}
+
+.flex-blackJackRow1, .flex-blackJackRow2, .flex-blackJackRow3{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.flex-blackJackRow1, .flex-blackJackRow2{
+    background-image: url("https://media.istockphoto.com/vectors/vector-realistic-isolated-green-poker-table-for-decoration-vector-id1299608766?k=20&m=1299608766&s=612x612&w=0&h=ZwlBIc1B5noT2uVZG9yighu1FLc5NoeWrk3KloKsdKM=");
+    color: white;
+}
+
+.flex-blackJackRow2 button{
+    border: 1px solid black;
+}
+
+.flex-blackJackRow2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table, td, th{
+    padding: 5px; 
+    border: 1px solid black;
+}
+
+.flex-blackJackRow1 div{
+    border: 1px solid black;
+    flex: 1;
+    height: 350;
+    padding: 10px;
+    text-align: center;
+}
+

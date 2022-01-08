@@ -1,0 +1,51 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Javascript on steriods</title>
+     <link rel="stylesheet" href="static/style.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ </head>
+ <body>
+     <div class = "Container-5">
+        <h1>Blackjack: become a millionair</h1>
+         <h3><span id = "blackJackResults">Lets Play!</span></h3>
+
+         <div class = "flex-blackJackRow1">
+             <div id = "yourBox">
+                 <h2>You: <span id = "yourBlackJackResult">0</span></h2>
+             </div>
+             <div id = dealerBox>
+                <h2>Dealer: <span id = "dealerBlackJackResult">0</span></h2>
+             </div>
+         </div>
+
+         <div class = "flex-blackJackRow2"> 
+             <div> 
+                 <button class = "btn-lg btn-primary mr2" id = "black-jack-hit-btn">Hit</button>
+                 <button class = "btn-lg btn-warning mr2" id = "black-jack-stand-btn">Stand</button>
+                 <button class = "btn-lg btn-danger" id = "black-jack-deal-btn">Deal</button>
+             </div>
+         </div>
+
+         <div class = flex-blackJackRow3> 
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td><span id = "wins">0</span></td>
+                    <td><span id = "losses">0</span></td>
+                    <td><span id = "draws">0</span></td>    
+                </tr>
+                
+            </table>
+
+         </div>
+     </div>
+     <script src = "static/home.js"></script>
+ </body>
+ </html>
